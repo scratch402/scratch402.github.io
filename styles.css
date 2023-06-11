@@ -49,7 +49,7 @@ a {
     
 }
 
-button {
+/* button {
     position: fixed;
     float: right;
     bottom: 2%;
@@ -62,11 +62,8 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3 ease 0s;
-}
+} */
 
-button:hover {
-    background-color: rgba(97, 175, 244, 0.8);
-}
 
 .header .menu {
     clear: both;
@@ -133,6 +130,52 @@ button:hover {
 .header .menu-btn:checked ~ .menu-icon .nav-icon::after {
     transform: rotate(45deg);
     top: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #ecf0f1;
+    text-align: right;
+    
+    
+    
+}
+.footer .contact {
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding: 18px 50px;
+    color: #ecf0f1;;
+    background-color: rgba(97, 175, 244, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+.footer .contact:hover {
+    background-color: rgba(97, 175, 244, 0.8);
+}
+.git_logo {
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+.git_logo:hover {
+    background-color: #999;
+    border-radius: 50px;
+}
+
+.linkedin_logo {
+    cursor: pointer;
+    margin-bottom: -27px;
+    margin-left: 20px;
+}
+.linkedin_logo:hover {
+    background-color: #999;
+    border-radius: 56px;
 }
 
 @media (min-width: 930px) {
